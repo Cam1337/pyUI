@@ -201,13 +201,11 @@ def main():
     bs.init()
     bs.add(layers)
 
-
     s = bs.get("screen_1")
     s.write_r("cameroncameroncameroncameroncameroncameroncameroncameroncameroncameroncameroncameron")
     time.sleep(1)
     s.delnlines(2)
     s.write_r("testing")
-    s.write_r("faggets")
     s.window.refresh()
     bs.mainloop(1)
     bs.uninit()
